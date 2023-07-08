@@ -46,7 +46,7 @@ options(
 
 Ask ChatGPT and report back with a few paragraphs.  Ask it to explain anything that is not clear to you.  Let's to do this in ten minutes and work with a partner or group.
 
-##. The Four Types
+## The Four Types
 
 ![Screenshot](img/Screenshot 2023-07-08 at 12.36.34 PM.png)
 
