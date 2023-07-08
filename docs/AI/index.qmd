@@ -50,6 +50,18 @@ Ask ChatGPT and report back with a few paragraphs.  Ask it to explain anything t
 
 ![Screenshot](img/Screenshot 2023-07-08 at 12.36.34 PM.png)
 
+## Let's Decide on a Question Together
+
+Let me write it down.
+
+## Implement it
+
+Ask the question of ChatGPT.
+
+What is your answer?
+
+How are they the same and different?
+
 ## From Yesterday: Large Language Models
 
 Notice the name....
