@@ -56,3 +56,9 @@ Notice the name....
 
 https://chat.openai.com/
 
+## You were supposed to bring a question
+
+What is it?  
+
++ What answer does ChatGPT offer you?
+
