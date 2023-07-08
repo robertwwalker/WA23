@@ -1,0 +1,39 @@
+---
+title: "Some Generalizations of Mundlak Estimators"
+author: "Robert W. Walker"
+format: 
+   revealjs:
+     multiplex: true
+     preview-links: true
+     theme: [custom.scss]
+     scrollable: true
+     logo: AGSMlogo.jpeg
+     footer: "EPSA 2023: ME02 (22 Jun 2023)"
+     chalkboard: true
+     html-math-method: katex
+     incremental: true
+     slide-number: c/t
+     transition: convex
+     code-fold: true
+     code-tools: true
+---
+
+# Overview
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+```{r setup, include=FALSE}
+library(fontawesome)
+knitr::opts_chunk$set(warning=FALSE, message=FALSE, echo=TRUE, tidy=TRUE, comment=NA, prompt=FALSE, fig.height=6, fig.width=6.5, fig.retina = 3, dev = 'svg', eval=TRUE)
+library(tidyverse)
+library(DT)
+theme_set(hrbrthemes::theme_ipsum_rc())
+options(
+  digits = 3,
+  width = 75,
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis",
+  ggplot2.discrete.colour = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442"),
+  ggplot2.discrete.fill = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442")
+)
+```
