@@ -1,0 +1,80 @@
+---
+title: "Some Free AI Tools"
+author: "Robert W. Walker"
+format: 
+   revealjs:
+     multiplex: true
+     preview-links: true
+     theme: [custom.scss]
+     scrollable: true
+     logo: AGSMlogo.jpeg
+     footer: "Willamette Academy 2023: 10 Jul 2023"
+     chalkboard: true
+     html-math-method: katex
+     incremental: true
+     slide-number: c/t
+     transition: convex
+     code-fold: true
+     code-tools: true
+---
+
+# Overview
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+```{r setup, include=FALSE}
+library(fontawesome)
+knitr::opts_chunk$set(warning=FALSE, message=FALSE, echo=TRUE, tidy=TRUE, comment=NA, prompt=FALSE, fig.height=6, fig.width=6.5, fig.retina = 3, dev = 'svg', eval=TRUE)
+library(tidyverse)
+library(DT)
+theme_set(hrbrthemes::theme_ipsum_rc())
+options(
+  digits = 3,
+  width = 75,
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis",
+  ggplot2.discrete.colour = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442"),
+  ggplot2.discrete.fill = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442")
+)
+```
+
+1. Yesterday, DALL-E requires tokens.  Let's use mine.  Send me a quick email with the prompt, *rwalker@willamette.edu*.  Then I can enter them and send them back as we make them.
+
+2. Free tools of various types for 
+   + Images
+   + Video
+   + Sound
+
+## Workflow
+
+1. Send an email with your prompt.
+2. I will take the prompt and build the images.
+3. I will mail back the images.
+
+## Free tools of other sorts
+
+The same basic ideas can operate in a variety of **document** formats.  That is, a type of file.  Videos.  Images.  Audio files.  Combinations of all of them can be generated using free AI tools.  *Some commercial platforms are built around special cases.*
+
+## The Big Idea
+
+Remains the same.  In the case of words as inputs, what do visual associations with those words look like from *metadata*.  What would be the characteristics of songs?  Videos?
+
+**What is metadata?**
+
+## Images
+
++ [One Collection](https://www.makeuseof.com/ai-text-to-art-generators/)
+
++ [Another Compilation](https://zapier.com/blog/best-ai-image-generator/)
+
+## Video
+
+Some Comments on Deep Fakes
+
+1. [A Collection of Video Generators](https://zapier.com/blog/best-ai-video-generator/)
+
+## Audio/Music
+
++ [A Collection for Businesses](https://www.elegantthemes.com/blog/business/best-ai-music-generators)
+
++ [For Creators](https://www.audiocipher.com/post/ai-music-app)
