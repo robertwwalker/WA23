@@ -1,0 +1,91 @@
+---
+title: "ChatGPT to Code and A Bit More on Free AI Tools"
+author: "Robert W. Walker"
+format: 
+   revealjs:
+     multiplex: true
+     preview-links: true
+     theme: [custom.scss]
+     scrollable: true
+     logo: AGSMlogo.jpeg
+     footer: "Willamette Academy 2023: 11 Jul 2023"
+     chalkboard: true
+     html-math-method: katex
+     incremental: true
+     slide-number: c/t
+     transition: convex
+     code-fold: true
+     code-tools: true
+---
+
+# Overview
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+```{r setup, include=FALSE}
+library(fontawesome)
+knitr::opts_chunk$set(warning=FALSE, message=FALSE, echo=TRUE, tidy=TRUE, comment=NA, prompt=FALSE, fig.height=6, fig.width=6.5, fig.retina = 3, dev = 'svg', eval=TRUE)
+library(tidyverse)
+library(DT)
+theme_set(hrbrthemes::theme_ipsum_rc())
+options(
+  digits = 3,
+  width = 75,
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis",
+  ggplot2.discrete.colour = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442"),
+  ggplot2.discrete.fill = c("#D55E00", "#0072B2", "#009E73", "#CC79A7", "#E69F00", "#56B4E9", "#F0E442")
+)
+```
+
+1. Yesterday, DALL-E.
+
+2. An indulgence: coding with ChatGPT
+
+3. Today, free tools of various types for 
+   + Video
+   + Sound
+
+# A Big Question
+
+Is artificial intelligence, intelligent?
+
+On easy mode, I always win at Civilization.  I also always win at FIFA.  I am not really very good at the latter.
+
+## Workflow
+
+A little indulgence.  Using ChatGPT to generate R code.
+
+1. Ask ChatGPT to use the internal dataset mtcars in a plot with hp on the x axis, mpg on the y axis, and colors determined by the number of cylinders -- cyl.  Produce this code using the R language and the ggplot plotting library.
+
+What does it produce?
+
+
+
+## Free tools of other sorts
+
+The same basic ideas can operate in a variety of **document** formats.  That is, a type of file.  Videos.  Images.  Audio files.  Combinations of all of them can be generated using free AI tools.  *Some commercial platforms are built around special cases.*
+
+## The Big Idea
+
+Remains the same.  In the case of words as inputs, what do visual associations with those words look like from *metadata*.
+
+As we learned yesterday, the degree to which likenesses exist on the internet already influences how well tasks are completed.  What would that be for sound and video?
+
+## A Repeat: Images
+
++ [One Collection](https://www.makeuseof.com/ai-text-to-art-generators/)
+
++ [Another Compilation](https://zapier.com/blog/best-ai-image-generator/)
+
+## Video
+
+Some Comments on Deep Fakes
+
+1. [A Collection of Video Generators](https://zapier.com/blog/best-ai-video-generator/)
+
+## Audio/Music
+
++ [A Collection for Businesses](https://www.elegantthemes.com/blog/business/best-ai-music-generators)
+
++ [For Creators](https://www.audiocipher.com/post/ai-music-app)
